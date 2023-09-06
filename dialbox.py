@@ -31,7 +31,7 @@ class DialBox(BoxLayout):
                 theta = math.atan2(delta_y, delta_x) #*(180/math.pi)
                 if theta < 0:
                     theta = theta + 2*math.pi
-                theta *= (180/math.pi)
+                theta = theta*(180/math.pi) - 180
                 print (theta)
                 self.dial_image.angle = theta
 
