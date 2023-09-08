@@ -3,7 +3,7 @@ from kivymd.app import MDApp
 from kivy.core.window import Window
 from kivy.properties import ObjectProperty, BooleanProperty
 
-from manager import Manager
+from manager_dial import Manager
 
 class DialApp(MDApp):
     
